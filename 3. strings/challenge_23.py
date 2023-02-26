@@ -1,0 +1,6 @@
+lullaby = input("Diga a primeira linha de uma canção de ninar: ")
+count1 = len(lullaby)
+print("Essa canção tem {} caracteres.".format(count1))
+choice1 = int(input("Agora escolha um número de 0 a {}: ".format(count1)))
+choice2 = int(input("Agora escolha outro número de 0 a {}: ".format(count1)))
+print(lullaby[choice1:choice2])
